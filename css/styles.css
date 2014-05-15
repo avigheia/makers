@@ -61,6 +61,7 @@ body, a {
 .seller-avatar {
 	display: block;
 	padding-top: 8px;
+	margin-bottom: 10px;
 }
 
 .seller-avatar img {
@@ -74,7 +75,8 @@ body, a {
 }
 
 .seller-avatar div{
-	color: #fff;
+	color: #333;
+
 }
 
 .seller-avatar div.seller-name {
@@ -180,28 +182,6 @@ body, a {
 	padding-top: 10px;
 	background-color: #F5F5F5;
 	border-bottom: 1px solid #d2d2d2;
-}
-
-.author-row .seller-avatar {
-	display: block;	
-}
-
-.author-row .seller-avatar img {
-	float: left;	
-	height: 60px;
-	width: 60px;
-	border-radius: 30px;
-	-webkit-border-radius: 30px;
-	-moz-border-radius: 30px;
-	margin-right: 10px;
-}
-
-.author-row .seller-avatar div{
-	color: black;
-}
-
-.author-row .seller-avatar div.seller-name {
-	font-weight: bold;
 }
 
 .author-row .thumbnails-links {
@@ -323,8 +303,6 @@ body, a {
 	border-radius: 5px;
 	margin-top: 10px;
 }
-
-
 
 
 
