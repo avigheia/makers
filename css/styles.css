@@ -127,7 +127,7 @@ body, a {
 	padding: 2px;
 }
 
-.items-container .items-row .item .square:hover .js-amazing{
+.items-container .items-row .item .square:hover .item-heart-font{
 	display: block;
 }
 
@@ -304,7 +304,43 @@ body, a {
 	margin-top: 10px;
 }
 
+.edit-section {
+	margin: 15px;	
+	border: 2px solid #e4f3d9;
+	border-radius: 5px;
+	margin-top: 20px;
+	padding: 10px 20px 10px 25px;
+}
 
+.edit-section h4 {
+	margin-bottom: 20px;
+}
+
+.form-group .thumbnails-links {
+	padding-left: 0px !important;
+}
+
+.form-group .thumbnails-links li{
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.form-group .thumbnails-links img{
+	height: 80px;
+	width: 80px;	
+}
+
+.form-group .thumbnails-links li {
+	position: relative;
+}
+
+.form-group .thumbnails-links .item-close-font {
+	position: absolute;
+	top: 2px;
+	left: 63px;
+	color: #333;
+}
 
 
 

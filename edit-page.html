@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Makers</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="icon" href="img/favicon.png" type="image/x-icon"/>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab&subset=cyrillic-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="navbar navbar-static-top" id="top" role="banner">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand"><img src="img/logo_small.png"></a>
+        </div>        
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#" data-toggle="modal" data-target="#sign-in">Vasea</a></li>
+          <li><a href="#" data-toggle="modal" data-target="#sign-up">Sign out</a></li>
+        </ul>
+        
+      </div>
+    </header>
+    <div class="container">
+      <div class="edit-section">
+        <h4>Sign in</h4>
+      	<form class="form-horizontal">
+          <div class="form-group">
+            <label class="col-md-2 control-label">Login</label>
+            <div class="col-md-4">
+              <input type="text" class="form-control" placeholder="Login">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-md-2 control-label">Password</label>
+            <div class="col-md-4">
+              <input type="password" class="form-control" placeholder="Password">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-md-offset-2 col-md-4">
+              <button type="submit" class="btn btn-success">Sign in</button>
+            </div>
+          </div>
+        </form>            
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="edit-section">
+        <h4>Sign up</h4>
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label class="col-md-2 control-label">Login</label>
+            <div class="col-md-4">
+              <input type="text" class="form-control" placeholder="Login">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-md-2 control-label">Emai</label>
+            <div class="col-md-4">
+              <input type="email" class="form-control" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-md-2 control-label">Password</label>
+            <div class="col-md-4">
+              <input type="password" class="form-control" placeholder="Password">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-md-offset-2 col-md-4">
+              <button type="submit" class="btn btn-success">Sign up</button>
+            </div>
+          </div>
+        </form>            
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="edit-section">
+        <h4>Change password</h4>
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label class="col-md-2 control-label">Current password</label>
+            <div class="col-md-4">
+              <input type="password" class="form-control" placeholder="Current password">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-md-2 control-label">New password</label>
+            <div class="col-md-4">
+              <input type="password" class="form-control" placeholder="New password">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-md-2 control-label">Confirm password</label>
+            <div class="col-md-4">
+              <input type="password" class="form-control" placeholder="Confirm password">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-md-offset-2 col-md-4">
+              <button type="submit" class="btn btn-success">Save changes</button>
+            </div>
+          </div>
+        </form>            
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="edit-section">
+        <h4>Edit profile</h4>
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label class="col-md-2 control-label">Your name</label>
+            <div class="col-md-4">
+              <input type="text" class="form-control" id="inputName" placeholder="Name">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-md-2 control-label">Phone number</label>
+            <div class="col-md-4">
+              <input type="text" class="form-control" id="inputPhoneNumber" placeholder="Phone number">
+            </div>
+          </div>
+          <div class="form-group">          
+            <label class="col-md-2 control-label">Profile picture</label>
+            <div class="col-md-6">            
+              <img src="img/placeholder_pic.png" width="75" height="75"style="margin-right: 7px;">
+              <input type="file" style="display: inline-block; ">      
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-md-2 control-label">About</label> <!-- Ограничение на 300 символов -->
+            <div class="col-md-4">
+              <textarea  class="form-control" rows="8"></textarea>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-md-offset-2 col-md-4">
+              <button type="submit" class="btn btn-success">Save changes</button>
+            </div>
+          </div>
+        </form>            
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="edit-section">
+        <h4>Edit item</h4>
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label class="col-md-2 control-label">Title</label>
+            <div class="col-md-4">
+              <input type="text" class="form-control" placeholder="Title">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-md-2 control-label">Price</label>
+            <div class="col-md-4">
+              <input type="text" class="form-control" placeholder="Price">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-md-2 control-label">About</label>
+            <div class="col-md-4">
+              <textarea  class="form-control" rows="8"></textarea>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-md-2 control-label">Added pictures</label>
+            <div class="col-md-5">
+              <ul class="thumbnails-links">
+                <li><img src="img/placeholder_pic.png">
+                  <a href="#" class="item-close-font">
+                    <i class="fa fa-times-circle"></i>
+                  </a>
+                </li>
+                <li><img src="img/placeholder_pic.png"> 
+                  <a href="#" class="item-close-font">
+                    <i class="fa fa-times-circle"></i>
+                  </a>
+                </li>
+                <li><img src="img/placeholder_pic.png">
+                  <a href="#" class="item-close-font">
+                    <i class="fa fa-times-circle"></i>
+                  </a>
+                </li>
+                <li><img src="img/placeholder_pic.png">
+                  <a href="#" class="item-close-font">
+                    <i class="fa fa-times-circle"></i>
+                  </a>
+                </li>
+                <li><img src="img/placeholder_pic.png"> 
+                  <a href="#" class="item-close-font">
+                    <i class="fa fa-times-circle"></i>
+                  </a>
+                </li>
+                <li><img src="img/placeholder_pic.png">
+                  <a href="#" class="item-close-font">
+                    <i class="fa fa-times-circle"></i>
+                  </a>
+                </li>
+                <li><img src="img/placeholder_pic.png">
+                  <a href="#" class="item-close-font">
+                    <i class="fa fa-times-circle"></i>
+                  </a>
+                </li>
+                <li><img src="img/placeholder_pic.png"> 
+                  <a href="#" class="item-close-font">
+                    <i class="fa fa-times-circle"></i>
+                  </a>
+                </li>
+                <li><img src="img/placeholder_pic.png">
+                  <a href="#" class="item-close-font">
+                    <i class="fa fa-times-circle"></i>
+                  </a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>   
+          <div class="form-group">          
+            <div class="col-md-offset-2 col-md-4">
+              <input type="file" style="display: inline-block;">
+            </div>
+          </div>  
+          <div class="form-group">
+            <div class="col-md-offset-2 col-md-4">
+              <button type="submit" class="btn btn-success">Save changes</button>
+            </div>
+          </div>
+        </form>            
+      </div>
+    </div>
+
+        
+
+
+
+
+    <nav class="navbar navbar-bottom" role="navigation">
+        <div class="container">
+          <span>Follow Makers</span>
+          <div>
+            <a href="#"><i class="fa fa-facebook-square"> Facebook</i></a>
+          </div>
+          <div>
+            <a href="#"><i class="fa fa-pinterest-square"> Pinterest</i></a>
+          </div>
+          <div>
+            <a href="#"><i class="fa fa-vk"> Vkontakte</i></a>
+          </div>         
+        </div>
+    </nav>
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
