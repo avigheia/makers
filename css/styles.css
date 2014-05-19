@@ -342,11 +342,47 @@ body, a {
 	color: #333;
 }
 
+.dialogs-page {
+	padding: 15px;
+}
 
+.dialogs-page .dialogs img{
+	margin-right: 5px;
+	height: 60px;
+	width: 60px;
+}
 
+.dialogs-page .dialogs {
+	max-height: 430px;
+	overflow: auto;
+}
 
+.dialogs-page .panel {
+	height: 360px;
+	overflow: auto;
+}
 
+.panel .panel-body a.more-messages {
+	font-size: 10pt;
+	display: block;
+	text-align: center;
+}
 
+.panel .panel-body .single-message .message-time div{
+	font-size: 10pt;
+	color: #bfbfbf;
+	text-align: right;
+}
+
+.panel .panel-body .single-message .message-author {
+	font-weight: bold;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.panel .panel-body .single-message {
+	margin-bottom: 20px;
+}
 
 
 
